@@ -1,3 +1,7 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+
 <h1>The greatest of polls</h1>
 {% if latest_question_list %}
 <ul>
